@@ -8,7 +8,7 @@ import warnings
 trainingDays = 10
 totDays = 100
 
-df = pd.read_csv('/Users/student/Desktop/BTC-USD.csv', index_col='Date', parse_dates=True)
+df = pd.read_csv('/Desktop/BTC-USD.csv', index_col='Date', parse_dates=True)
 df.drop(columns=['Adj Close'], inplace=True)
 df.head(5)
 
